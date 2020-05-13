@@ -9,8 +9,8 @@
 //#import "CMPlugin.h"
 
 NS_ASSUME_NONNULL_BEGIN
-@class CMPlugin;
-@interface AppPlugin : CMPlugin
+
+@interface AppPlugin : NSObject
 
 @end
 
