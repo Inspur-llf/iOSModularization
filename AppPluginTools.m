@@ -11,6 +11,6 @@
 @implementation AppPluginTools
 +(NSString *)getAppVersionCode{
     NSDictionary* infoDictionary = [[NSBundle mainBundle] infoDictionary];
-    return infoDictionary[@"CFBundleShortVersionString"];;
+    return infoDictionary[@"CFBundleShortVersionString"];
 }
 @end
