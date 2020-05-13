@@ -6,10 +6,10 @@
 //  Copyright © 2020 浪潮通软储备事业部. All rights reserved.
 //
 
-#import "CMPlugin.h"
+//#import "CMPlugin.h"
 
 NS_ASSUME_NONNULL_BEGIN
-
+@class CMPlugin
 @interface AppPlugin : CMPlugin
 
 @end

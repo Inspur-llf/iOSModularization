@@ -18,10 +18,10 @@ Pod::Spec.new do |spec|
 
   spec.author             = { "lingfei li" => "lilingfei@inspur.com" }
 
-  spec.source       = { :git => "https://github.com/iOSModularization.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/Inspur-llf/iOSModularization.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "*.{h,m}"
+  
 
   
 
