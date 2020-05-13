@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
  
 
   spec.name         = "iOSModularization"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "A short description of iOSModularization."
 
   spec.description  = <<-DESC
